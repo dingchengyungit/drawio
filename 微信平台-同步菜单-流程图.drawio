@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-25T03:40:36.154Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="nA4H4BYfmRFUjGb_LJHL" version="12.1.5" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-25T03:59:44.266Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="ftG83rEXi-URDqlJcBa-" version="12.1.5" type="github" pages="1">
   <diagram id="2wywwgnPdGmNAfwlJ5xG" name="第 1 页">
     <mxGraphModel dx="854" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,23 +46,28 @@
             <mxPoint x="690" y="810" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-13" target="wN9nyht_0yyj5oyMkxLu-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="650" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wN9nyht_0yyj5oyMkxLu-13" value="根据库里查出来的数据拼装发送微信对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="620" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="wN9nyht_0yyj5oyMkxLu-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-19" target="wN9nyht_0yyj5oyMkxLu-23">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="wN9nyht_0yyj5oyMkxLu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-19" target="wN9nyht_0yyj5oyMkxLu-25">
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-19" value="调用微信创建个性化菜单接口，返回menuId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="930" width="120" height="61" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-23" target="wN9nyht_0yyj5oyMkxLu-25">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="wN9nyht_0yyj5oyMkxLu-19" value="调用微信创建个性化菜单接口，返回menuId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="810" width="120" height="60" as="geometry"/>
-        </mxCell>
         <mxCell id="wN9nyht_0yyj5oyMkxLu-23" value="调用微信删除个性化菜单接口，删除上次同步菜单创建的个性化菜单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="930" width="120" height="60" as="geometry"/>
+          <mxGeometry x="630" y="1040" width="120" height="61" as="geometry"/>
         </mxCell>
         <mxCell id="wN9nyht_0yyj5oyMkxLu-25" value="更新数据库，保存个性化菜单menuId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="930" width="120" height="60" as="geometry"/>
+          <mxGeometry x="630" y="1150" width="120" height="61" as="geometry"/>
         </mxCell>
         <mxCell id="wN9nyht_0yyj5oyMkxLu-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-29" target="wN9nyht_0yyj5oyMkxLu-30">
           <mxGeometry relative="1" as="geometry"/>
@@ -102,6 +107,63 @@
         </mxCell>
         <mxCell id="wN9nyht_0yyj5oyMkxLu-44" value="入参不为空" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="70" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-47" target="wN9nyht_0yyj5oyMkxLu-51">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-47" target="wN9nyht_0yyj5oyMkxLu-56">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-47" value="&lt;span style=&quot;white-space: normal&quot;&gt;一级菜单数量校验&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="610" width="90" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-51" value="最多只能创建三个一级菜单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="610" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-53" value="一级菜单超过三个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="630" width="105" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-56" target="wN9nyht_0yyj5oyMkxLu-58">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-56" value="拼装调用微信接口的一级菜单VO明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="740" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-58" target="wN9nyht_0yyj5oyMkxLu-59">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-58" target="wN9nyht_0yyj5oyMkxLu-67">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-58" value="拼装调用微信接口的二级菜单VO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="397" y="839" width="115" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-67" target="wN9nyht_0yyj5oyMkxLu-69">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-67" value="将二级菜单添加到一级菜单的子菜单中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="940" width="115" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-69" value="添加个性化菜单内容至微信VO中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="1041" width="115" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-59" target="wN9nyht_0yyj5oyMkxLu-62">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-59" target="wN9nyht_0yyj5oyMkxLu-65">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-59" value="二级菜单数量校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="829" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-62" value="最多只能创建五个二级菜单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="829" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-64" value="数量超过5个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="839" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-65" value="拼装二级菜单VO明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="940" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
