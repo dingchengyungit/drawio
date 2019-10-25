@@ -1,1 +1,58 @@
-<mxfile host="www.draw.io" modified="2019-10-25T03:01:30.659Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="oPPAUMOjU_PUrzyTqcLZ" version="12.1.5" type="github" pages="1"><diagram id="2wywwgnPdGmNAfwlJ5xG" name="第 1 页">ddHNEoIgEADgp+GuUGlnM7t08tCZkU2YQddBGq2nTwfMGOvE8u3C8kNY1oyF4Z28ogBNaCRGwk6E0ngXpdMwy9NJsvdQGyV80QqleoHHyOtDCeiDQouorepCrLBtobKBcWNwCMvuqMOuHa9hA2XF9VZvSljpNKXJ6hdQtVw6x4ejyzR8KfY36SUXOHwRywnLDKJ1UTNmoOfHW97FrTv/yX4OZqC1PxZMwbr3NAl+iOVv</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-25T03:14:11.835Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="mAjXCU8GJen6h4hzUPT1" version="12.1.5" type="github" pages="1">
+  <diagram id="2wywwgnPdGmNAfwlJ5xG" name="第 1 页">
+    <mxGraphModel dx="854" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="90" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-1" value="同步微信菜单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-6" target="wN9nyht_0yyj5oyMkxLu-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="200" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="340" y="200"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-6" value="入参非空判断" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-7" value="请输入菜单分组信息和正确的微信appId" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-10" target="wN9nyht_0yyj5oyMkxLu-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-10" target="wN9nyht_0yyj5oyMkxLu-17">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-10" value="根据menuGroupId和appId查询菜单列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="250" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wN9nyht_0yyj5oyMkxLu-13" target="wN9nyht_0yyj5oyMkxLu-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-13" value="根据库里查出来的数据拼装发送微信对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="390" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="wN9nyht_0yyj5oyMkxLu-15" value="调用微信创建个性化菜单接口，返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="530" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
