@@ -1,1 +1,70 @@
-<mxfile host="www.draw.io" modified="2019-11-02T08:33:00.363Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" version="12.1.9" etag="n-9NkGMFTZdq6KcDnLX8" type="github" pages="1"><diagram id="iIE9nfYXdB0ooCwbUU75">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-02T09:23:06.756Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="IZ_nMRlJeIuAIoXRylwL" version="12.1.9" type="github" pages="1">
+  <diagram id="iIE9nfYXdB0ooCwbUU75" name="第 1 页">
+    <mxGraphModel dx="737" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEcJV6HW8dK4CZXFpCgL-14" target="bEcJV6HW8dK4CZXFpCgL-18">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="310" width="155" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEcJV6HW8dK4CZXFpCgL-7" target="bEcJV6HW8dK4CZXFpCgL-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="168" width="150" height="103" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEcJV6HW8dK4CZXFpCgL-1" target="bEcJV6HW8dK4CZXFpCgL-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-1" value="定时任务每天00：01分执行" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEcJV6HW8dK4CZXFpCgL-2" target="bEcJV6HW8dK4CZXFpCgL-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-2" value="查询分销奖励明细列表：冻结状态、30天前" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-4" value="批量修改查询结果状态为解冻中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="190" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-3" value="查询列表需要注意，如果数据量超过1000，还是要考虑分页查询" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="10" width="110" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-6" value="&lt;font color=&quot;#ff0000&quot;&gt;支付成功不影响&lt;br&gt;退款发生时时间也超过30天，不影响&lt;br&gt;除去时间限制，是否有并发问题？&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="140" width="130" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-8" value="提交事务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="148" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEcJV6HW8dK4CZXFpCgL-9" target="bEcJV6HW8dK4CZXFpCgL-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-9" value="修改分销员账户表：减少冻结收益，增加可提现收益" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-12" value="修改分销奖励明细：&lt;br&gt;修改冻结状态为自然解冻" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="432" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEcJV6HW8dK4CZXFpCgL-18" target="bEcJV6HW8dK4CZXFpCgL-20">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEcJV6HW8dK4CZXFpCgL-18" target="bEcJV6HW8dK4CZXFpCgL-24">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-18" value="执行结果" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="573" y="575" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-20" value="解冻失败，记录日志&lt;br&gt;需要人工干预" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="353" y="585" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="bEcJV6HW8dK4CZXFpCgL-24" value="解冻成功" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="553" y="710" width="120" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
