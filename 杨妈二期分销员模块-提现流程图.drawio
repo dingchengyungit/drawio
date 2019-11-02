@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T09:03:22.202Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="dDujUORABAkcen4p8Yjs" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-02T09:11:38.983Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="xAEQFOy5FyXmGiNhAIgg" version="12.1.9" type="github" pages="1">
   <diagram id="ep64UdQq2w47eoxnLUAS" name="第 1 页">
     <mxGraphModel dx="740" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,8 +101,8 @@
         <mxCell id="U5Xe9v4DzJ4esqf87ya7-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U5Xe9v4DzJ4esqf87ya7-31" target="U5Xe9v4DzJ4esqf87ya7-44">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="U5Xe9v4DzJ4esqf87ya7-31" value="补加可提现金额，&lt;br&gt;计入流水表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="653" width="120" height="60" as="geometry"/>
+        <mxCell id="U5Xe9v4DzJ4esqf87ya7-31" value="分销员账户表：补加可提现金额&lt;br&gt;&lt;br&gt;分销员收支流水表：新增记录，交易类型为提现冲正&lt;br&gt;&lt;br&gt;提现订单表：修改提现结果时间、状态、失败错误码、失败错误描述" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="618" width="190" height="130" as="geometry"/>
         </mxCell>
         <mxCell id="U5Xe9v4DzJ4esqf87ya7-33" value="失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="653" width="40" height="20" as="geometry"/>
