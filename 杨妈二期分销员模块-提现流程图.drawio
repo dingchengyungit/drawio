@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-02T09:11:38.983Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="xAEQFOy5FyXmGiNhAIgg" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-02T09:12:32.739Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="0ROBjOvAn2kGmHW0Zzyr" version="12.1.9" type="github" pages="1">
   <diagram id="ep64UdQq2w47eoxnLUAS" name="第 1 页">
     <mxGraphModel dx="740" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
         <mxCell id="IuhCuXHCw700vj-FfKhi-2" value="提现金额校验" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="60" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="IuhCuXHCw700vj-FfKhi-4" value="分销员账户表：扣除可提现金额&lt;br&gt;&lt;br&gt;分销员收支流水表：新增记录，交易类型 2（提现）&lt;br&gt;&lt;br&gt;提现订单表：新增提现记录，状态为提现中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IuhCuXHCw700vj-FfKhi-4" value="分销员账户表：扣除可提现金额&lt;br&gt;&lt;br&gt;分销员收支流水表：新增记录，交易类型 2-提现&lt;br&gt;&lt;br&gt;提现订单表：新增提现记录，状态为提现中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="266" width="120" height="154" as="geometry"/>
         </mxCell>
         <mxCell id="U5Xe9v4DzJ4esqf87ya7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U5Xe9v4DzJ4esqf87ya7-2" target="U5Xe9v4DzJ4esqf87ya7-6">
@@ -101,7 +101,7 @@
         <mxCell id="U5Xe9v4DzJ4esqf87ya7-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U5Xe9v4DzJ4esqf87ya7-31" target="U5Xe9v4DzJ4esqf87ya7-44">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="U5Xe9v4DzJ4esqf87ya7-31" value="分销员账户表：补加可提现金额&lt;br&gt;&lt;br&gt;分销员收支流水表：新增记录，交易类型为提现冲正&lt;br&gt;&lt;br&gt;提现订单表：修改提现结果时间、状态、失败错误码、失败错误描述" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U5Xe9v4DzJ4esqf87ya7-31" value="分销员账户表：补加可提现金额&lt;br&gt;&lt;br&gt;分销员收支流水表：新增记录，交易类型为4-提现冲正&lt;br&gt;&lt;br&gt;提现订单表：修改提现结果时间、状态、失败错误码、失败错误描述" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="618" width="190" height="130" as="geometry"/>
         </mxCell>
         <mxCell id="U5Xe9v4DzJ4esqf87ya7-33" value="失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
