@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-05T02:18:09.832Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="3wWSotVHBthJmK1afQ3V" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-05T03:58:03.649Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="XEg3UPed_giunSvjZi3c" version="12.1.9" type="github" pages="1">
   <diagram id="ep64UdQq2w47eoxnLUAS" name="第 1 页">
     <mxGraphModel dx="1078" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,6 +158,9 @@
         </mxCell>
         <mxCell id="kgFXJ43kFkHnUJsPflUz-10" value="未绑定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="590" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="kgFXJ43kFkHnUJsPflUz-11" value="修改状态的时候，需要用where条件锁住之前的状态。" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1000" width="100" height="100" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
