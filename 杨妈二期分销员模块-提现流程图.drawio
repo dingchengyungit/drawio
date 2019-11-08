@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T09:51:21.634Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="tgDGltUqND4C7AF0H8h5" version="12.2.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-08T09:54:50.255Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="WWYoxyM5hwbNxgvrmrMy" version="12.2.2" type="github" pages="1">
   <diagram id="ep64UdQq2w47eoxnLUAS" name="第 1 页">
     <mxGraphModel dx="1648" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,7 +126,7 @@
           <mxGeometry x="455" y="1530.5" width="220" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="U5Xe9v4DzJ4esqf87ya7-38" value="与9楼沟通重试时机和重试机制" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="719.5" y="1012" width="120" height="60" as="geometry"/>
+          <mxGeometry x="696" y="1011.5" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="U5Xe9v4DzJ4esqf87ya7-40" value="需要重试" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="630" y="1012" width="50" height="20" as="geometry"/>
@@ -159,7 +159,7 @@
           <mxGeometry x="190" y="590" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="kgFXJ43kFkHnUJsPflUz-11" value="修改状态的时候，需要用where条件锁住之前的状态。" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="729.5" y="1517" width="100" height="100" as="geometry"/>
+          <mxGeometry x="639.5" y="1360" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="NM_gNG-pQQA4w5gnR_v4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NM_gNG-pQQA4w5gnR_v4-1" target="IuhCuXHCw700vj-FfKhi-4" edge="1">
           <mxGeometry relative="1" as="geometry"/>
