@@ -1,1 +1,43 @@
-<mxfile host="www.draw.io" modified="2019-12-31T01:47:02.528Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="zHyT6aEhXTMJSLSvB24F" version="12.4.7" type="github"><diagram id="59l5-3uoyyUavtWPNQAs" name="Page-1">dZHBDoIwDIafZnfcjOgZUS+eOHheaGVLBiVjBvTphWyIC5r00H79u3/rmMjq4Wxlq64EaBhPYGDiyDjfbDlnUyTw9CRNA6ishiBaQKFfGGAS6EMDdpHQERmn2xiW1DRYuohJa6mPZXcysWsrK1yBopRmTW8anPJ0z9OFX1BXanbe7A6+U8tZHF7SKQnUfyGRM5FZIuezesjQTMub9+LnTn+6n4tZbNyPgTFZzh6L6IdE/gY=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-31T02:03:38.979Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="ry2rUsoFBN7FS5LqdHAS" version="12.4.7" type="github">
+  <diagram id="59l5-3uoyyUavtWPNQAs" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="WkZ0VPPhT1RhV3O30EEh-1" value="测试：&lt;br&gt;基准测试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="70" height="340" as="geometry"/>
+        </mxCell>
+        <mxCell id="WkZ0VPPhT1RhV3O30EEh-2" value="高可用：&lt;br&gt;可维护&lt;br&gt;可扩展&lt;br&gt;容灾" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="230" width="70" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="WkZ0VPPhT1RhV3O30EEh-3" value="了解服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="420" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="WkZ0VPPhT1RhV3O30EEh-4" value="前：设计（研发）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="WkZ0VPPhT1RhV3O30EEh-5" value="中：定位（DBA）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="WkZ0VPPhT1RhV3O30EEh-6" value="后：修复（CTO）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="170" y="430" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="WkZ0VPPhT1RhV3O30EEh-7" value="硬件" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="238" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="WkZ0VPPhT1RhV3O30EEh-8" value="mysql服务器及配置" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="327" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="WkZ0VPPhT1RhV3O30EEh-9" value="应用层" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="417" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="WkZ0VPPhT1RhV3O30EEh-10" value="笛&lt;br&gt;卡&lt;br&gt;尔&lt;br&gt;积" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="40" height="258" as="geometry"/>
+        </mxCell>
+        <mxCell id="WkZ0VPPhT1RhV3O30EEh-11" value="工具" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="520" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
