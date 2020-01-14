@@ -1,1 +1,73 @@
-<mxfile host="www.draw.io" modified="2020-01-14T08:11:33.809Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="_QHwiMMSzirSGchnUJnB" version="12.5.1" type="github"><diagram id="CirZkO4WaCNWbF2mwb_A" name="Page-1">jZLJboMwEIafxsdKLE0J19I05NATB84unmJLBiPHwZCnryljFkWRKvkw883imd8mcdYMZ007/qUYSBIFbCDxB4mi8DWKyHQCNs4kSRDUWjBMWkEh7oAwQHoTDK67RKOUNKLbw0q1LVRmx6jWyu7TfpTc39rRGh5AUVH5SEvBDJ/pMUpWnoOoub85fEvnSEN9Mm5y5ZQpu0HxicSZVsrMVjNkICfxvC5z3eeT6DKYhtb8p+Bsy15esjb97jN1v8i8POQv2KWn8oYL47Bm9Aq4Lk5s57xbLgwUHa2miHXv7Rg3jXRe6ExsBdrA8HTGcNncfRlQDRg9uhQsOKBW+FlSdO2qfOjl5BvVj8goPna9NF71cAZK4t1V+r/Y5gPHp18=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-14T08:31:06.205Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="Enq48ENG-Z4Ao2nkZxbv" version="12.5.1" type="github">
+  <diagram id="CirZkO4WaCNWbF2mwb_A" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GwWvlICn9bvCozIlHW5H-1" target="5S0X4dd4i9qfHT6mmriq-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="GwWvlICn9bvCozIlHW5H-1" value="用户通过名片、搜索方式关注公众号&lt;br&gt;（用户关注事件）" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="90" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="160" as="sourcePoint"/>
+            <mxPoint x="235" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-1" value="微信服务" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="163" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-3" value="MQ" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="193" y="220" width="60" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353" y="249" as="sourcePoint"/>
+            <mxPoint x="253" y="249" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5S0X4dd4i9qfHT6mmriq-4" target="5S0X4dd4i9qfHT6mmriq-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-4" value="监听用户关注事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="230" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-6" value="发送用户事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="237" y="177" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5S0X4dd4i9qfHT6mmriq-8" target="5S0X4dd4i9qfHT6mmriq-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-8" value="校验事件消息参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="330" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5S0X4dd4i9qfHT6mmriq-10" target="5S0X4dd4i9qfHT6mmriq-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-10" value="根据event，采用策略模式处理消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="430" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5S0X4dd4i9qfHT6mmriq-13" target="5S0X4dd4i9qfHT6mmriq-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-13" value="1、查询用户购买状态并打标签" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="430" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5S0X4dd4i9qfHT6mmriq-15" target="5S0X4dd4i9qfHT6mmriq-17">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-15" value="2、查询是否有 对应相应配置（查询全部非删除的关注自动回复消息）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="530" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-17" value="3、遍历关注自动回复消息列表，调用发送消息service，发送消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="530" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-12" value="监听用户事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="252" y="230" width="90" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
