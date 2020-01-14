@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-14T08:43:00.770Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="X159XbyIKBw_DAUBc9uf" version="12.5.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-14T08:45:35.788Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="E562Ex9iEIgqzj3VcVpf" version="12.5.1" type="github">
   <diagram id="CirZkO4WaCNWbF2mwb_A" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,10 @@
         <mxCell id="5S0X4dd4i9qfHT6mmriq-19" value="校验消息发送类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="630" width="80" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="5S0X4dd4i9qfHT6mmriq-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5S0X4dd4i9qfHT6mmriq-22" target="5S0X4dd4i9qfHT6mmriq-41">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-22" value="获取消息id、用户openid，发送至MQ延迟队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="740" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="5S0X4dd4i9qfHT6mmriq-25" value="立即发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
@@ -103,7 +106,7 @@
         <mxCell id="5S0X4dd4i9qfHT6mmriq-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5S0X4dd4i9qfHT6mmriq-27" target="5S0X4dd4i9qfHT6mmriq-31">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="5S0X4dd4i9qfHT6mmriq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.317;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5S0X4dd4i9qfHT6mmriq-27" target="5S0X4dd4i9qfHT6mmriq-3">
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.85;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5S0X4dd4i9qfHT6mmriq-27" target="5S0X4dd4i9qfHT6mmriq-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="5S0X4dd4i9qfHT6mmriq-27" value="校验结果" style="rhombus;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="1">
@@ -126,6 +129,21 @@
         </mxCell>
         <mxCell id="5S0X4dd4i9qfHT6mmriq-38" value="监&lt;br&gt;听&lt;br&gt;发&lt;br&gt;送&lt;br&gt;客&lt;br&gt;服&lt;br&gt;消&lt;br&gt;息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="133" y="160" width="30" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-41" value="MQ" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="730" y="850" width="60" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-45" value="发送消息至延迟队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="809" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5S0X4dd4i9qfHT6mmriq-47" target="5S0X4dd4i9qfHT6mmriq-41">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-47" value="延迟队列监听器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="700" y="970" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5S0X4dd4i9qfHT6mmriq-50" value="监听延迟队列消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="694" y="945" width="110" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
