@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-14T08:10:20.853Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="MO8D2Phe-Q2oqAgDgcNk" version="12.5.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-14T08:15:32.540Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="MRkUXUkewiUmhRhUzmOr" version="12.5.1" type="github">
   <diagram id="eXSzCXUkk9aMT34sWKoG" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-1" value="获取消息预览二维码" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="10" width="120" height="80" as="geometry"/>
+          <mxGeometry x="50" y="10" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cIf2t6NYBjwAvPdpSPoL-2" target="cIf2t6NYBjwAvPdpSPoL-3" edge="1">
           <mxGeometry relative="1" as="geometry"/>
