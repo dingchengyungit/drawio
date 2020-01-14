@@ -1,1 +1,97 @@
-<mxfile host="www.draw.io" modified="2020-01-14T06:46:00.698Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="PnzCjSbjdkBIBwgSpKKB" version="12.5.1" type="github"><diagram id="dGlWOBbs7YPE1XwmucC8" name="Page-1">3Zhdb5swFIZ/DZebwIYAlyPN2otV2tZpvXaxi10ZzIyzfPz6mWAHCERqq2QpkXJhXh9j87yHYwcHzvP1rUQlvReYcAe4eO3AGwcAzwfAqX8u3jRKGBohkwyboFZ4YFtiRNeoS4ZJ1QtUQnDFyr6YiqIgqeppSEqx6oc9C96ftUQZGQgPKeJD9ZFhRRs1AmGr3xGWUTuzN4ubnhzZYPMkFUVYrDoSXDhwLoVQTStfzwmv4VkuzbivR3r3C5OkUK8ZQF+q2+3iOfujvv2GKw6qaLn4ZMz4i/jSPLBZrNpYAlTlXLc8ByalYIXaAQ0SJ7ipFSJZThSRWhRSUZGJAvHvrZqYCYhUZH105d6eh04kIvRYudEhdoBNBpNDHgya61XriA2hXTMCE4dMEmT7W7ecdMOgegO2cArYQPzRsNnZPjY3H76PW2DHnZ6bNwVuwTvz7YzcJlHewuiAm+9emhsccHskKUUqQSql96Sq6l0TzLheSfIkdSurW3NRKCk412AOKWs6dUQHNuIsK3Q71ZR2JGuGTG+8X0xHzjCuhyeSVGyLnna3ckdtQkslqubo4J3GE5u6xpJ4JJP9EUvO54g/hUw+3KghAJ8vvucEUyS3f7cvx202RW7hK2vnGbkNz4ZN7fwh9d+KwhTPayqVBw7Yw0rHAeCOWADOViujIw78JCXfXJ8BAPZLhzfyCsT/1YD4iAG/iMyvj7/X5w9dMOQfnYa/vmw/GOz6Op9d4OIf</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-14T06:53:43.336Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="AZa6zQVjS6l4L7oJNpRB" version="12.5.1" type="github">
+  <diagram id="dGlWOBbs7YPE1XwmucC8" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="110" y="135" width="10" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="290" y="136" width="10" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="446" y="135" width="10" height="530" as="geometry"/>
+        </mxCell>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="600" y="135" width="10" height="530" as="geometry"/>
+        </mxCell>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="780" y="140" width="10" height="530" as="geometry"/>
+        </mxCell>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-13" value="WechatBatchMessage&lt;br&gt;Controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="21" y="95" width="140" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="110" y="322.5" width="10" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="110" y="530" width="10" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="110" y="740" width="10" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-17" value="WechatQrScanMessageController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="711" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-18" value="WechatReplyMessageController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="1" y="510" width="190" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="hjsGzEfgqtLV3wl2s8uE-19" value="WechatTermMessageController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="8" y="302" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-1" value="WechatBatchMessageService" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="106" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="290" y="322" width="10" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="290" y="530" width="10" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="290" y="731" width="10" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="170" as="sourcePoint"/>
+            <mxPoint x="280" y="170" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-9" value="updateById" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="153" y="151" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-10" value="校验发送时间，&lt;br&gt;定时消息，&lt;br&gt;不能早于当前时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="8" y="136" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="118" y="379" as="sourcePoint"/>
+            <mxPoint x="278" y="379" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-12" value="updateById" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="360" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="579" as="sourcePoint"/>
+            <mxPoint x="280" y="579" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-14" value="updateById" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="153" y="560" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="118" y="799" as="sourcePoint"/>
+            <mxPoint x="278" y="799" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="425xG45m04q_DACm4cBR-16" value="updateById" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="780" width="80" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
