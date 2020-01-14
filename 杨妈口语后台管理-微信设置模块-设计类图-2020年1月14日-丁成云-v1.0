@@ -1,1 +1,73 @@
-<mxfile host="www.draw.io" modified="2020-01-14T03:33:04.166Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="8zuiw2cmr09_JaU8Oj0R" version="12.5.1" type="github"><diagram id="y3LWssTX9FOzeY3ukiAX" name="Page-1">7ZdRb9owEMc/TaTtoRN2SMoeIbQdEkzV6NbHyk1MYuHkIsct0E+/c+KQhoAEk6K9ICEU/302ufv9zwmOG6TbB8XyZAERlw4dRFvHnTqUjvwRfhthVwlDf1AJsRJRJZFGWIoPbsU67E1EvGgFagCpRd4WQ8gyHuqWxpSCTTtsBbL9qzmLeUdYhkx21WcR6cSmRW8b/QcXcVL/MvG/VzMpq4NtJkXCIth8ktw7xw0UgK6u0m3ApaldXZdq3f2J2f2NKZ7pcxZ4Dx717sfr9cuDt3l/8UT2c3Zjd3ln8s0m/MzDhOkJ02Gy4EWB+f0Bm4De1VUpNiKVLMPRZAWZXtoZgmMmRZzhdYi3xRUK71xpgQUd2wkNOaphImQ0Zzt4MzdfaBau69EkASU+cFsm7Z44rbT1BvVbEUuzEuUBqooXGPNYV4QcSAu2bQXOWaGtEIKULC/E6z6NlKlYZBPQGlIbZEuF6fDtSQZkTxY7gkPKtdphiF1APWsG2w301o43jbdI3SHJJ1+NfGtpa+d4v3VDHC8s9AsMQDsGcOjENIrgplPGpt92Oe84AGugSzIK1jwACYh6mkFlCSHlgVS7QvKVPumJImehyOJ5GTMdNsovWwgjAa5dybKREhFFPDM8QTPNKniGVA4i02WlvAl+sJ7B4JvneHjjAY5JM8aPCVc6gAxzYaLkyNEZG27ccR70063VdUJN3j8PPO0LvHsE/AFjKUp2FeP69CP/BDhFVJI3RJ8M8OkN6VB3u9TdI4Qle+XyEQqhBZj9VRV7QP5/wfXomV3dE9vhiabG3ROIvpiG/nrt7d7w+2ce6r31tnfiqX59oPf+QO+ip4Mj6Anpq/f9Dvu0ov5UtjpOu8Qkb9UFjwSbRd2JJ3MIdNRZGnfF30pez5CLzxDv0veDo0YaDXvy0e31/aA3uISceUxcfkjgsPlLWc59+l/u3v0F</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-14T03:35:30.705Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="IsdFUH7oH8qMMgzuMFbm" version="12.5.1" type="github">
+  <diagram id="y3LWssTX9FOzeY3ukiAX" name="Page-1">
+    <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="5G525FAkk_G5wv_5inNI-1" value="WechatBatchMessageVo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="260" width="160" height="86" as="geometry"/>
+        </mxCell>
+        <mxCell id="5G525FAkk_G5wv_5inNI-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5G525FAkk_G5wv_5inNI-1" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="5G525FAkk_G5wv_5inNI-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="5G525FAkk_G5wv_5inNI-1" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="5G525FAkk_G5wv_5inNI-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5G525FAkk_G5wv_5inNI-1" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="5G525FAkk_G5wv_5inNI-5" value="WechatMessageVo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="20" width="200" height="118" as="geometry"/>
+        </mxCell>
+        <mxCell id="5G525FAkk_G5wv_5inNI-6" value="messageType&#xa;messageMediaId&#xa;messageText&#xa;messageImg&#xa;messageUrl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5G525FAkk_G5wv_5inNI-5" vertex="1">
+          <mxGeometry y="26" width="200" height="84" as="geometry"/>
+        </mxCell>
+        <mxCell id="5G525FAkk_G5wv_5inNI-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="5G525FAkk_G5wv_5inNI-5" vertex="1">
+          <mxGeometry y="110" width="200" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="OTbYwuRUEpvhipNPKg0a-1" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5G525FAkk_G5wv_5inNI-1" target="5G525FAkk_G5wv_5inNI-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="150" y="360" as="sourcePoint"/>
+            <mxPoint x="310" y="360" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OTbYwuRUEpvhipNPKg0a-2" value="WechatTermMessageVo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="160" height="86" as="geometry"/>
+        </mxCell>
+        <mxCell id="OTbYwuRUEpvhipNPKg0a-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OTbYwuRUEpvhipNPKg0a-2">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="OTbYwuRUEpvhipNPKg0a-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OTbYwuRUEpvhipNPKg0a-2">
+          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="OTbYwuRUEpvhipNPKg0a-5" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OTbYwuRUEpvhipNPKg0a-2">
+          <mxGeometry y="60" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="OTbYwuRUEpvhipNPKg0a-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OTbYwuRUEpvhipNPKg0a-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="260" as="sourcePoint"/>
+            <mxPoint x="349" y="140" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OTbYwuRUEpvhipNPKg0a-7" value="WechatEventReplyVo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="160" height="86" as="geometry"/>
+        </mxCell>
+        <mxCell id="OTbYwuRUEpvhipNPKg0a-8" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OTbYwuRUEpvhipNPKg0a-7">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="OTbYwuRUEpvhipNPKg0a-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OTbYwuRUEpvhipNPKg0a-7">
+          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="OTbYwuRUEpvhipNPKg0a-10" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OTbYwuRUEpvhipNPKg0a-7">
+          <mxGeometry y="60" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="OTbYwuRUEpvhipNPKg0a-11" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.556;exitY=0.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OTbYwuRUEpvhipNPKg0a-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="640" y="220" as="sourcePoint"/>
+            <mxPoint x="350" y="140" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
