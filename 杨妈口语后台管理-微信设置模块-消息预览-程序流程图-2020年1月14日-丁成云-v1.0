@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-14T08:09:36.262Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="urnwEz0mjRovpbPFfinj" version="12.5.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-14T08:10:20.853Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="MO8D2Phe-Q2oqAgDgcNk" version="12.5.1" type="github">
   <diagram id="eXSzCXUkk9aMT34sWKoG" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,27 +8,27 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-1" value="获取消息预览二维码" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="80" width="120" height="80" as="geometry"/>
+          <mxGeometry x="60" y="10" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cIf2t6NYBjwAvPdpSPoL-2" target="cIf2t6NYBjwAvPdpSPoL-3" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-2" value="校验请求参数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="90" width="120" height="60" as="geometry"/>
+          <mxGeometry x="290" y="20" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cIf2t6NYBjwAvPdpSPoL-3" target="cIf2t6NYBjwAvPdpSPoL-5" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-3" value="拼装event_key&lt;br&gt;（调用微信服务参数）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="230" width="120" height="60" as="geometry"/>
+          <mxGeometry x="290" y="120" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cIf2t6NYBjwAvPdpSPoL-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="510" as="targetPoint"/>
+            <mxPoint x="350" y="320" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-5" value="调用微信服务，获取ticket_url" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="370" width="120" height="60" as="geometry"/>
+          <mxGeometry x="290" y="220" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cIf2t6NYBjwAvPdpSPoL-9" target="cIf2t6NYBjwAvPdpSPoL-12" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -37,40 +37,40 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-9" value="调用结果" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="510" width="80" height="80" as="geometry"/>
+          <mxGeometry x="310" y="320" width="80" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cIf2t6NYBjwAvPdpSPoL-12" target="cIf2t6NYBjwAvPdpSPoL-13" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-12" value="处理消息体" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="640" width="120" height="60" as="geometry"/>
+          <mxGeometry x="290" y="450" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cIf2t6NYBjwAvPdpSPoL-13" target="cIf2t6NYBjwAvPdpSPoL-17" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-13" value="文本类型：处理a标签中href的双引号&lt;br&gt;图片类型：缓存取不到则上传至临时素材库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="640" width="240" height="60" as="geometry"/>
+          <mxGeometry x="490" y="450" width="240" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cIf2t6NYBjwAvPdpSPoL-17" target="cIf2t6NYBjwAvPdpSPoL-24" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-17" value="拼装缓存key，请求参数入缓存，设置缓存有效期为10分钟" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="780" width="240" height="60" as="geometry"/>
+          <mxGeometry x="280" y="590" width="240" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-16" value="成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="367" y="593" width="40" height="20" as="geometry"/>
+          <mxGeometry x="367" y="403" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-24" value="返回ticket_url" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="770" width="120" height="80" as="geometry"/>
+          <mxGeometry x="40" y="580" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="cIf2t6NYBjwAvPdpSPoL-26" value="返回null" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="510" width="120" height="80" as="geometry"/>
+          <mxGeometry x="40" y="320" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j3Dwxm2HnGd4dYW__CzA-1" target="j3Dwxm2HnGd4dYW__CzA-2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-1" value="用户微信扫描预览二维码" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1000" width="120" height="80" as="geometry"/>
+          <mxGeometry x="40" y="730" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j3Dwxm2HnGd4dYW__CzA-2" target="j3Dwxm2HnGd4dYW__CzA-4">
           <mxGeometry relative="1" as="geometry"/>
@@ -78,16 +78,16 @@
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.033;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="j3Dwxm2HnGd4dYW__CzA-2" target="j3Dwxm2HnGd4dYW__CzA-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="270" y="1090"/>
-              <mxPoint x="402" y="1090"/>
+              <mxPoint x="270" y="820"/>
+              <mxPoint x="402" y="820"/>
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-2" value="微信服务" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="1010" width="120" height="60" as="geometry"/>
+          <mxGeometry x="210" y="740" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-4" value="MQ" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1000" width="60" height="80" as="geometry"/>
+          <mxGeometry x="400" y="730" width="60" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j3Dwxm2HnGd4dYW__CzA-6" target="j3Dwxm2HnGd4dYW__CzA-4">
           <mxGeometry relative="1" as="geometry"/>
@@ -96,37 +96,37 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-6" value="监听用户扫码事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1010" width="120" height="60" as="geometry"/>
+          <mxGeometry x="550" y="740" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j3Dwxm2HnGd4dYW__CzA-10" target="j3Dwxm2HnGd4dYW__CzA-12">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-10" value="扫描参数校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1109" width="120" height="61" as="geometry"/>
+          <mxGeometry x="550" y="839" width="120" height="61" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j3Dwxm2HnGd4dYW__CzA-12" target="j3Dwxm2HnGd4dYW__CzA-14">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-12" value="根据event，采用对应的策略进行处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1210" width="120" height="61" as="geometry"/>
+          <mxGeometry x="550" y="940" width="120" height="61" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="j3Dwxm2HnGd4dYW__CzA-14" target="j3Dwxm2HnGd4dYW__CzA-4">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-14" value="解析消息，缓存中取出对应的消息，调用MQ，发送消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1330" width="120" height="61" as="geometry"/>
+          <mxGeometry x="550" y="1060" width="120" height="61" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-19" value="监听" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="508" y="1023" width="40" height="20" as="geometry"/>
+          <mxGeometry x="508" y="753" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-20" value="发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="346" y="1020" width="40" height="20" as="geometry"/>
+          <mxGeometry x="346" y="750" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-23" value="监听" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="353" y="1071" width="40" height="20" as="geometry"/>
+          <mxGeometry x="353" y="801" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="j3Dwxm2HnGd4dYW__CzA-24" value="发送客服消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="466" y="1340" width="90" height="20" as="geometry"/>
+          <mxGeometry x="466" y="1070" width="90" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
